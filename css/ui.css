@@ -1,0 +1,26 @@
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 500;
+}
+
+.primary-button {
+  padding: 1.25rem 2rem;
+  font-size: 1.25rem;
+  line-height: 140%;
+  background-color: transparent;
+  border: 1px solid var(--brand-dark, #191A23);
+  border-radius: 0.875rem;
+}
+
+.primary-button:hover {
+  font-weight: 500;
+  background-color: var(--brand-light, #F3F3F3);
+}

@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  --brand-green: #B9FF66;
+  --brand-dark: #191A23;
+  --brand-light: #F3F3F3
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
